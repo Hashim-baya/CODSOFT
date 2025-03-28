@@ -9,7 +9,7 @@ function Footer() {
 
   return (
     <section>
-        <div className='bg-[#222222]  text-[0.9rem] text-center py-4'>
+        <div className='bg-[#222222] relative bottom-0 right-0 left-0 text-[0.9rem] text-center py-4 mb-0'>
             
                 {/* Discover  */}
 
