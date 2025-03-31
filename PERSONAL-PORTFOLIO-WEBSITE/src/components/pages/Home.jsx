@@ -8,6 +8,7 @@ function Home() {
     <section>
       <HeroSection />
       <Experience />
+      <Projects />
       
     </section>
   )
