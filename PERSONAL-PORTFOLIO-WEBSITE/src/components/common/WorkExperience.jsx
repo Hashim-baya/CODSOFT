@@ -56,7 +56,7 @@ function WorkExperience() {
           </div>  
           <p className="flex items-center gap-2 text-[#C5C5C5]">  
             <FaCodeBranch className="text-sm" />  
-            <span className='font-bold'>GitHub Community | 2023-Present</span>  
+            <span className='font-bold'>GitHub Community | 2022-Present</span>  
           </p>  
           <p className='text-[#C5C5C5] font-serif text-sm mt-4'>
             <span>Resolved 15+ critical bugs in popular React libraries, impacting 50,000+ downstream users.</span><br></br>
