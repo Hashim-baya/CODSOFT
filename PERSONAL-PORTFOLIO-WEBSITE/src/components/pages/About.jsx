@@ -1,8 +1,13 @@
 import React from 'react'
+import AboutMe from '../common/AboutMe'
+import ProfessionalBackground from '../common/ProfessionalBackground'
 
 function About() {
   return (
-    <div>About</div>
+    <section>
+      <AboutMe />
+      <ProfessionalBackground />
+    </section>
   )
 }
 
