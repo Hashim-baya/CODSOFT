@@ -42,7 +42,7 @@ function Experience() {
                 itemClass="carousel-item-padding-20-px"
             >
               <div>
-                <FontAwesomeIcon icon={faReact} size="2xl" className='text-[#61DAFB]'  />
+                <FontAwesomeIcon  icon={faReact} size="2xl" className='text-[#61DAFB]'  />
               </div>
 
               <div>
@@ -54,7 +54,7 @@ function Experience() {
               </div>
                
               <div>
-                <FontAwesomeIcon icon={faHtml5} size="2xl" className='text-[#E34F26]'  />
+                <FontAwesomeIcon  icon={faHtml5} size="2xl" className='text-[#E34F26]'  />
               </div>
                 
               <div>

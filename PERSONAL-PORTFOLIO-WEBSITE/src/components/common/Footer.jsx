@@ -106,7 +106,7 @@ function Footer() {
             </div>
                 
 
-            <p className='text-white font-light text-[0.5rem]'>&copy; {currentYear} Hashim Baya Nassoro. All rights reserved. Made with ❤️ & Code. </p>
+            <p data-testid='footer' className='text-white font-light text-[0.5rem]'>&copy; {currentYear} Hashim Baya Nassoro. All rights reserved. Made with ❤️ & Code. </p>
         </div>
     </section>
   )

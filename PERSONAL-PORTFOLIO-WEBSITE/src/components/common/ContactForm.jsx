@@ -40,7 +40,7 @@ function ContactForm() {
   return (
     <div>
         <h3 className='text-transparent bg-clip-text bg-gradient-to-r from-[#FF8660] to-[#D5491D] font-bold text-xl md:text-2xl text-center my-10'>Contact Form</h3>
-        <p className='text-[#C5C5C5] font-serif text-sm text-center'>*Fill out the form below to get in touch with me.*</p>
+        <p data-testID="form-text" className='text-[#C5C5C5] font-serif text-sm text-center'>*Fill out the form below to get in touch with me.*</p>
        <Formik
             initialValues={{
                 name: '',
@@ -56,7 +56,7 @@ function ContactForm() {
 
                 <label htmlFor="name" className='text-white font-bold text-lg'>Name</label>
                 <Field type="text" name="name" placeholder="Your Name" className="border-2 border-gray-300 rounded-md p-2 w-full mb-4 text-[#C5C5C5]" />
-                <ErrorMessage name="name" component="div" className="text-red-500 text-sm mb-2" />
+                <ErrorMessage name="name" component="div" data-testID="name-error" className="text-red-500 text-sm mb-2" />
 
                 <label htmlFor='email' className='text-white font-bold text-lg'>Email</label>
                 <Field type="email" name="email" placeholder="Your Email" className="border-2 border-gray-300 rounded-md p-2 w-full mb-4 text-[#C5C5C5]" />
